@@ -34,7 +34,7 @@ export const pokebolas = [{
 },
 {
     id: 5,
-    nome: "Fire Ball",
+    nome: "Fire Bal",
     tipo: ["fogo"],
     multiplicador: 2,
     preco: 800
