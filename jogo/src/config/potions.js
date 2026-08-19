@@ -39,7 +39,7 @@ export const potions = [
 function usarPotion(potion, pokemon) {
 
     if (potion.efeito === "cura") {
-        pokemon.hp += potion.valor;
+        pokemon.hp += potion.cura;
 
         if (pokemon.hp > pokemon.hpMax) {
             pokemon.hp = pokemon.hpMax;

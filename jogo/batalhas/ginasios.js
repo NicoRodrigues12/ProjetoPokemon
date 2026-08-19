@@ -6,7 +6,7 @@ import leia from 'readline-sync'
 export const ginasios = [
     {
         nome: "Ginasios de Pedra",
-        lider: "Cleber Josevaldo da Luz",
+        lider: "Cleber Josevaldo",
         tipo: "Pedra",
         dificuldade: "",
         pokemons: []

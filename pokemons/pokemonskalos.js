@@ -1,4 +1,4 @@
-export const pokemonsKalos = [
+export const pokemons = [
     {
         numero: 1,
         nome: "Chespin",
@@ -7,7 +7,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 2
+        evolucao: 2,
+        chanceCaptura: 45,
+        chanceAparicao: null,
+        tipagem: ["Grass"]
     },
 
     {
@@ -18,7 +21,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 3
+        evolucao: 3,
+        chanceCaptura: 45,
+        chanceAparicao: null,
+        tipagem: ["Grass"]
     },
 
     {
@@ -29,7 +35,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 45,
+        chanceAparicao: null,
+        tipagem: ["Grass", "Fighting"]
     },
 
     {
@@ -40,7 +49,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 5
+        evolucao: 5,
+        chanceCaptura: 45,
+        chanceAparicao: null,
+        tipagem: ["Fire"]
     },
 
     {
@@ -51,7 +63,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 6
+        evolucao: 6,
+        chanceCaptura: 45,
+        chanceAparicao: null,
+        tipagem: ["Fire"]
     },
 
     {
@@ -62,7 +77,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 45,
+        chanceAparicao: null,
+        tipagem: ["Fire", "Psychic"]
     },
 
     {
@@ -73,7 +91,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 8
+        evolucao: 8,
+        chanceCaptura: 45,
+        chanceAparicao: null,
+        tipagem: ["Water"]
     },
 
     {
@@ -84,7 +105,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 9
+        evolucao: 9,
+        chanceCaptura: 45,
+        chanceAparicao: null,
+        tipagem: ["Water"]
     },
 
     {
@@ -95,7 +119,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 45,
+        chanceAparicao: null,
+        tipagem: ["Water", "Dark"]
     },
 
     {
@@ -106,7 +133,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 11
+        evolucao: 11,
+        chanceCaptura: 255,
+        chanceAparicao: null,
+        tipagem: ["Normal"]
     },
 
     {
@@ -117,7 +147,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 127,
+        chanceAparicao: null,
+        tipagem: ["Normal", "Ground"]
     },
 
     {
@@ -128,7 +161,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 13
+        evolucao: 13,
+        chanceCaptura: 255,
+        chanceAparicao: null,
+        tipagem: ["Normal", "Flying"]
     },
 
     {
@@ -139,7 +175,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 14
+        evolucao: 14,
+        chanceCaptura: 120,
+        chanceAparicao: null,
+        tipagem: ["Fire", "Flying"]
     },
 
     {
@@ -150,7 +189,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 45,
+        chanceAparicao: null,
+        tipagem: ["Fire", "Flying"]
     },
 
     {
@@ -161,7 +203,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 16
+        evolucao: 16,
+        chanceCaptura: 255,
+        chanceAparicao: null,
+        tipagem: ["Bug"]
     },
 
     {
@@ -172,7 +217,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 17
+        evolucao: 17,
+        chanceCaptura: 120,
+        chanceAparicao: null,
+        tipagem: ["Bug"]
     },
 
     {
@@ -183,7 +231,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 45,
+        chanceAparicao: null,
+        tipagem: ["Bug", "Flying"]
     },
 
     {
@@ -194,7 +245,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 19
+        evolucao: 19,
+        chanceCaptura: 220,
+        chanceAparicao: null,
+        tipagem: ["Fire", "Normal"]
     },
 
     {
@@ -205,7 +259,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 65,
+        chanceAparicao: null,
+        tipagem: ["Fire", "Normal"]
     },
 
     {
@@ -216,7 +273,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 21
+        evolucao: 21,
+        chanceCaptura: 225,
+        chanceAparicao: null,
+        tipagem: ["Fairy"]
     },
 
     {
@@ -227,7 +287,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 22
+        evolucao: 22,
+        chanceCaptura: 120,
+        chanceAparicao: null,
+        tipagem: ["Fairy"]
     },
 
     {
@@ -238,7 +301,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 45,
+        chanceAparicao: null,
+        tipagem: ["Fairy"]
     },
 
     {
@@ -249,7 +315,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 24
+        evolucao: 24,
+        chanceCaptura: 200,
+        chanceAparicao: null,
+        tipagem: ["Grass"]
     },
 
     {
@@ -260,7 +329,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 45,
+        chanceAparicao: null,
+        tipagem: ["Grass"]
     },
 
     {
@@ -271,7 +343,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 26
+        evolucao: 26,
+        chanceCaptura: 220,
+        chanceAparicao: null,
+        tipagem: ["Fighting"]
     },
 
     {
@@ -282,7 +357,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 65,
+        chanceAparicao: null,
+        tipagem: ["Fighting", "Dark"]
     },
 
     {
@@ -293,7 +371,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 160,
+        chanceAparicao: null,
+        tipagem: ["Normal"]
     },
 
     {
@@ -304,7 +385,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 29
+        evolucao: 29,
+        chanceCaptura: 190,
+        chanceAparicao: null,
+        tipagem: ["Psychic"]
     },
 
     {
@@ -315,7 +399,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 75,
+        chanceAparicao: null,
+        tipagem: ["Psychic"]
     },
 
     {
@@ -326,7 +413,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 31
+        evolucao: 31,
+        chanceCaptura: 180,
+        chanceAparicao: null,
+        tipagem: ["Steel", "Ghost"]
     },
 
     {
@@ -337,7 +427,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 32
+        evolucao: 32,
+        chanceCaptura: 90,
+        chanceAparicao: null,
+        tipagem: ["Steel", "Ghost"]
     },
 
     {
@@ -348,7 +441,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 45,
+        chanceAparicao: null,
+        tipagem: ["Steel", "Ghost"]
     },
 
     {
@@ -359,7 +455,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 34
+        evolucao: 34,
+        chanceCaptura: 200,
+        chanceAparicao: null,
+        tipagem: ["Fairy"]
     },
 
     {
@@ -370,7 +469,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 140,
+        chanceAparicao: null,
+        tipagem: ["Fairy"]
     },
 
     {
@@ -381,7 +483,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 36
+        evolucao: 36,
+        chanceCaptura: 200,
+        chanceAparicao: null,
+        tipagem: ["Fairy"]
     },
 
     {
@@ -392,7 +497,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 140,
+        chanceAparicao: null,
+        tipagem: ["Fairy"]
     },
 
     {
@@ -403,7 +511,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 38
+        evolucao: 38,
+        chanceCaptura: 190,
+        chanceAparicao: null,
+        tipagem: ["Dark", "Psychic"]
     },
 
     {
@@ -414,7 +525,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 80,
+        chanceAparicao: null,
+        tipagem: ["Dark", "Psychic"]
     },
 
     {
@@ -425,7 +539,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 40
+        evolucao: 40,
+        chanceCaptura: 120,
+        chanceAparicao: null,
+        tipagem: ["Rock", "Water"]
     },
 
     {
@@ -436,7 +553,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 45,
+        chanceAparicao: null,
+        tipagem: ["Rock", "Water"]
     },
 
     {
@@ -447,7 +567,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 42
+        evolucao: 42,
+        chanceCaptura: 225,
+        chanceAparicao: null,
+        tipagem: ["Poison", "Water"]
     },
 
     {
@@ -458,7 +581,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 55,
+        chanceAparicao: null,
+        tipagem: ["Poison", "Dragon"]
     },
 
     {
@@ -469,7 +595,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 44
+        evolucao: 44,
+        chanceCaptura: 225,
+        chanceAparicao: null,
+        tipagem: ["Water"]
     },
 
     {
@@ -480,7 +609,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 55,
+        chanceAparicao: null,
+        tipagem: ["Water"]
     },
 
     {
@@ -491,7 +623,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 46
+        evolucao: 46,
+        chanceCaptura: 190,
+        chanceAparicao: null,
+        tipagem: ["Electric", "Normal"]
     },
 
     {
@@ -502,7 +637,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 75,
+        chanceAparicao: null,
+        tipagem: ["Electric", "Normal"]
     },
 
     {
@@ -513,7 +651,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 48
+        evolucao: 48,
+        chanceCaptura: 45,
+        chanceAparicao: null,
+        tipagem: ["Rock", "Dragon"]
     },
 
     {
@@ -524,7 +665,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 45,
+        chanceAparicao: null,
+        tipagem: ["Rock", "Dragon"]
     },
 
     {
@@ -535,7 +679,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 50
+        evolucao: 50,
+        chanceCaptura: 45,
+        chanceAparicao: null,
+        tipagem: ["Rock", "Ice"]
     },
 
     {
@@ -546,7 +693,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 45,
+        chanceAparicao: null,
+        tipagem: ["Rock", "Ice"]
     },
 
     {
@@ -557,7 +707,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 45,
+        chanceAparicao: null,
+        tipagem: ["Fairy"]
     },
 
     {
@@ -568,7 +721,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 100,
+        chanceAparicao: null,
+        tipagem: ["Fighting", "Flying"]
     },
 
     {
@@ -579,7 +735,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 180,
+        chanceAparicao: null,
+        tipagem: ["Electric", "Fairy"]
     },
 
     {
@@ -590,7 +749,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 60,
+        chanceAparicao: null,
+        tipagem: ["Rock", "Fairy"]
     },
 
     {
@@ -601,7 +763,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 56
+        evolucao: 56,
+        chanceCaptura: 45,
+        chanceAparicao: null,
+        tipagem: ["Dragon"]
     },
 
     {
@@ -612,7 +777,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 57
+        evolucao: 57,
+        chanceCaptura: 45,
+        chanceAparicao: null,
+        tipagem: ["Dragon"]
     },
 
     {
@@ -623,7 +791,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 45,
+        chanceAparicao: null,
+        tipagem: ["Dragon"]
     },
 
     {
@@ -634,7 +805,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 75,
+        chanceAparicao: null,
+        tipagem: ["Steel", "Fairy"]
     },
 
     {
@@ -645,7 +819,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 60
+        evolucao: 60,
+        chanceCaptura: 120,
+        chanceAparicao: null,
+        tipagem: ["Ghost", "Grass"]
     },
 
     {
@@ -656,7 +833,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 60,
+        chanceAparicao: null,
+        tipagem: ["Ghost", "Grass"]
     },
 
     {
@@ -667,7 +847,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 62
+        evolucao: 62,
+        chanceCaptura: 120,
+        chanceAparicao: null,
+        tipagem: ["Ghost", "Grass"]
     },
 
     {
@@ -678,7 +861,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 60,
+        chanceAparicao: null,
+        tipagem: ["Ghost", "Grass"]
     },
 
     {
@@ -689,7 +875,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 64
+        evolucao: 64,
+        chanceCaptura: 190,
+        chanceAparicao: null,
+        tipagem: ["Ice"]
     },
 
     {
@@ -700,7 +889,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 55,
+        chanceAparicao: null,
+        tipagem: ["Ice"]
     },
 
     {
@@ -711,7 +903,10 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: 66
+        evolucao: 66,
+        chanceCaptura: 190,
+        chanceAparicao: null,
+        tipagem: ["Flying", "Dragon"]
     },
 
     {
@@ -722,6 +917,9 @@ export const pokemonsKalos = [
         nivel: 1,
         xp: 0,
         xpProximoNivel: 150,
-        evolucao: null
+        evolucao: null,
+        chanceCaptura: 45,
+        chanceAparicao: null,
+        tipagem: ["Flying", "Dragon"]
     }
 ];

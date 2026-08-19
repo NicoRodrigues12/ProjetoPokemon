@@ -1,7 +1,7 @@
 import leia from 'readline-sync'
 export const pokebolas = [{
     id: 1,
-    nome: 'pokebola',
+    nome: 'Pokeball',
     tipo: 'comum',
     simbolo : '🔴',
     multiplicador : 1,
@@ -34,21 +34,22 @@ export const pokebolas = [{
 },
 {
     id: 5,
-    nome: "Fire Bal",
+    nome: "Fire Ball",
     tipo: ["fogo"],
     multiplicador: 2,
     preco: 800
 },
 {
     id : 6, 
-    nome : "net ball",
+    nome : "Net Ball",
     tipo:['agua' ,'inseto'],
+    preco : 800,
     multiplicador: 2
 
 },
 {
     id :7,
-    nome :'green ball',
+    nome :'Green Ball',
     tipo: ['grama'],
     multiplicador : 2,
     preco : 800
