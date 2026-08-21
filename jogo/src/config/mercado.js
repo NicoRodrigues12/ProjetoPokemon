@@ -60,3 +60,5 @@ export function mercado() {
     console.log(`Total gasto: R$${valorTotal}`)
     console.log(`Dinheiro restante: R$${PlayerInicial.dinheiro}`)
 }
+
+mercado()

@@ -2,7 +2,7 @@ export const pokemons = [
     {
         numero: 1,
         nome: "Chespin",
-        ataques: [],
+        ataques: ["Tackle", "Vine Whip", "Rollout", "Bite"],
         hp: 56,
         nivel: 1,
         xp: 0,
@@ -16,7 +16,7 @@ export const pokemons = [
     {
         numero: 2,
         nome: "Quilladin",
-        ataques: [],
+        ataques: ["Tackle", "Vine Whip", "Rollout", "Seed Bomb"],
         hp: 61,
         nivel: 1,
         xp: 0,
@@ -30,7 +30,7 @@ export const pokemons = [
     {
         numero: 3,
         nome: "Chesnaught",
-        ataques: [],
+        ataques: ["Seed Bomb", "Brick Break", "Bite", "Wood Hammer"],
         hp: 88,
         nivel: 1,
         xp: 0,
@@ -44,7 +44,7 @@ export const pokemons = [
     {
         numero: 4,
         nome: "Fennekin",
-        ataques: [],
+        ataques: ["Scratch", "Ember", "Psybeam", "Flame Charge"],
         hp: 40,
         nivel: 1,
         xp: 0,
@@ -58,7 +58,7 @@ export const pokemons = [
     {
         numero: 5,
         nome: "Braixen",
-        ataques: [],
+        ataques: ["Ember", "Psybeam", "Flame Charge", "Fire Fang"],
         hp: 59,
         nivel: 1,
         xp: 0,
@@ -72,7 +72,7 @@ export const pokemons = [
     {
         numero: 6,
         nome: "Delphox",
-        ataques: [],
+        ataques: ["Flamethrower", "Psychic", "Fire Blast", "Psybeam"],
         hp: 75,
         nivel: 1,
         xp: 0,
@@ -86,7 +86,7 @@ export const pokemons = [
     {
         numero: 7,
         nome: "Froakie",
-        ataques: [],
+        ataques: ["Pound", "Water Gun", "Quick Attack", "Bubble Beam"],
         hp: 41,
         nivel: 1,
         xp: 0,
@@ -100,7 +100,7 @@ export const pokemons = [
     {
         numero: 8,
         nome: "Frogadier",
-        ataques: [],
+        ataques: ["Water Gun", "Quick Attack", "Bubble Beam", "Water Pulse"],
         hp: 54,
         nivel: 1,
         xp: 0,
@@ -114,7 +114,7 @@ export const pokemons = [
     {
         numero: 9,
         nome: "Greninja",
-        ataques: [],
+        ataques: ["Water Shuriken", "Night Slash", "Surf", "Dark Pulse"],
         hp: 72,
         nivel: 1,
         xp: 0,
@@ -128,7 +128,7 @@ export const pokemons = [
     {
         numero: 10,
         nome: "Bunnelby",
-        ataques: [],
+        ataques: ["Tackle", "Mud-Slap", "Quick Attack", "Dig"],
         hp: 38,
         nivel: 1,
         xp: 0,
@@ -142,7 +142,7 @@ export const pokemons = [
     {
         numero: 11,
         nome: "Diggersby",
-        ataques: [],
+        ataques: ["Dig", "Double Kick", "Bulldoze", "Earthquake"],
         hp: 85,
         nivel: 1,
         xp: 0,
@@ -156,7 +156,7 @@ export const pokemons = [
     {
         numero: 12,
         nome: "Fletchling",
-        ataques: [],
+        ataques: ["Peck", "Tackle", "Quick Attack", "Ember"],
         hp: 45,
         nivel: 1,
         xp: 0,
@@ -170,7 +170,7 @@ export const pokemons = [
     {
         numero: 13,
         nome: "Fletchinder",
-        ataques: [],
+        ataques: ["Peck", "Ember", "Flame Charge", "Wing Attack"],
         hp: 62,
         nivel: 1,
         xp: 0,
@@ -184,7 +184,7 @@ export const pokemons = [
     {
         numero: 14,
         nome: "Talonflame",
-        ataques: [],
+        ataques: ["Flame Charge", "Wing Attack", "Flamethrower", "Brave Bird"],
         hp: 78,
         nivel: 1,
         xp: 0,
@@ -198,7 +198,7 @@ export const pokemons = [
     {
         numero: 15,
         nome: "Scatterbug",
-        ataques: [],
+        ataques: ["Tackle", "Struggle Bug", "Bug Bite", "Poison Sting"],
         hp: 38,
         nivel: 1,
         xp: 0,
@@ -212,7 +212,7 @@ export const pokemons = [
     {
         numero: 16,
         nome: "Spewpa",
-        ataques: [],
+        ataques: ["Bug Bite", "Struggle Bug", "Poison Sting", "Bug Buzz"],
         hp: 45,
         nivel: 1,
         xp: 0,
@@ -226,7 +226,7 @@ export const pokemons = [
     {
         numero: 17,
         nome: "Vivillon",
-        ataques: [],
+        ataques: ["Gust", "Bug Buzz", "Air Slash", "Psybeam"],
         hp: 80,
         nivel: 1,
         xp: 0,
@@ -240,7 +240,7 @@ export const pokemons = [
     {
         numero: 18,
         nome: "Litleo",
-        ataques: [],
+        ataques: ["Tackle", "Ember", "Headbutt", "Flame Charge"],
         hp: 62,
         nivel: 1,
         xp: 0,
@@ -254,7 +254,7 @@ export const pokemons = [
     {
         numero: 19,
         nome: "Pyroar",
-        ataques: [],
+        ataques: ["Flamethrower", "Crunch", "Fire Fang", "Hyper Voice"],
         hp: 86,
         nivel: 1,
         xp: 0,
@@ -268,7 +268,7 @@ export const pokemons = [
     {
         numero: 20,
         nome: "Flabébé",
-        ataques: [],
+        ataques: ["Tackle", "Fairy Wind", "Draining Kiss", "Magical Leaf"],
         hp: 44,
         nivel: 1,
         xp: 0,
@@ -282,7 +282,7 @@ export const pokemons = [
     {
         numero: 21,
         nome: "Floette",
-        ataques: [],
+        ataques: ["Fairy Wind", "Magical Leaf", "Draining Kiss", "Dazzling Gleam"],
         hp: 54,
         nivel: 1,
         xp: 0,
@@ -296,7 +296,7 @@ export const pokemons = [
     {
         numero: 22,
         nome: "Florges",
-        ataques: [],
+        ataques: ["Moonblast", "Dazzling Gleam", "Psychic", "Energy Ball"],
         hp: 78,
         nivel: 1,
         xp: 0,
@@ -310,7 +310,7 @@ export const pokemons = [
     {
         numero: 23,
         nome: "Skiddo",
-        ataques: [],
+        ataques: ["Tackle", "Vine Whip", "Razor Leaf", "Take Down"],
         hp: 66,
         nivel: 1,
         xp: 0,
@@ -324,7 +324,7 @@ export const pokemons = [
     {
         numero: 24,
         nome: "Gogoat",
-        ataques: [],
+        ataques: ["Razor Leaf", "Horn Attack", "Seed Bomb", "Earthquake"],
         hp: 123,
         nivel: 1,
         xp: 0,
@@ -338,7 +338,7 @@ export const pokemons = [
     {
         numero: 25,
         nome: "Pancham",
-        ataques: [],
+        ataques: ["Tackle", "Karate Chop", "Arm Thrust", "Bite"],
         hp: 67,
         nivel: 1,
         xp: 0,
@@ -352,7 +352,7 @@ export const pokemons = [
     {
         numero: 26,
         nome: "Pangoro",
-        ataques: [],
+        ataques: ["Hammer Arm", "Crunch", "Karate Chop", "Body Slam"],
         hp: 95,
         nivel: 1,
         xp: 0,
@@ -366,7 +366,7 @@ export const pokemons = [
     {
         numero: 27,
         nome: "Furfrou",
-        ataques: [],
+        ataques: ["Tackle", "Bite", "Headbutt", "Take Down"],
         hp: 75,
         nivel: 1,
         xp: 0,
@@ -380,7 +380,7 @@ export const pokemons = [
     {
         numero: 28,
         nome: "Espurr",
-        ataques: [],
+        ataques: ["Scratch", "Confusion", "Psybeam", "Psychic"],
         hp: 62,
         nivel: 1,
         xp: 0,
@@ -394,7 +394,7 @@ export const pokemons = [
     {
         numero: 29,
         nome: "Meowstic",
-        ataques: [],
+        ataques: ["Psybeam", "Psyshock", "Psychic", "Shadow Ball"],
         hp: 74,
         nivel: 1,
         xp: 0,
@@ -408,7 +408,7 @@ export const pokemons = [
     {
         numero: 30,
         nome: "Honedge",
-        ataques: [],
+        ataques: ["Tackle", "Fury Cutter", "Shadow Sneak", "Metal Claw"],
         hp: 45,
         nivel: 1,
         xp: 0,
@@ -422,7 +422,7 @@ export const pokemons = [
     {
         numero: 31,
         nome: "Doublade",
-        ataques: [],
+        ataques: ["Shadow Sneak", "Metal Claw", "Iron Head", "Night Slash"],
         hp: 59,
         nivel: 1,
         xp: 0,
@@ -436,7 +436,7 @@ export const pokemons = [
     {
         numero: 32,
         nome: "Aegislash",
-        ataques: [],
+        ataques: ["Shadow Sneak", "Iron Head", "Sacred Sword", "Shadow Ball"],
         hp: 60,
         nivel: 1,
         xp: 0,
@@ -450,7 +450,7 @@ export const pokemons = [
     {
         numero: 33,
         nome: "Spritzee",
-        ataques: [],
+        ataques: ["Fairy Wind", "Tackle", "Draining Kiss", "Psybeam"],
         hp: 78,
         nivel: 1,
         xp: 0,
@@ -464,7 +464,7 @@ export const pokemons = [
     {
         numero: 34,
         nome: "Aromatisse",
-        ataques: [],
+        ataques: ["Draining Kiss", "Psychic", "Dazzling Gleam", "Moonblast"],
         hp: 101,
         nivel: 1,
         xp: 0,
@@ -478,7 +478,7 @@ export const pokemons = [
     {
         numero: 35,
         nome: "Swirlix",
-        ataques: [],
+        ataques: ["Tackle", "Fairy Wind", "Draining Kiss", "Dazzling Gleam"],
         hp: 62,
         nivel: 1,
         xp: 0,
@@ -492,7 +492,7 @@ export const pokemons = [
     {
         numero: 36,
         nome: "Slurpuff",
-        ataques: [],
+        ataques: ["Fairy Wind", "Draining Kiss", "Play Rough", "Dazzling Gleam"],
         hp: 82,
         nivel: 1,
         xp: 0,
@@ -506,7 +506,7 @@ export const pokemons = [
     {
         numero: 37,
         nome: "Inkay",
-        ataques: [],
+        ataques: ["Tackle", "Peck", "Psybeam", "Night Slash"],
         hp: 53,
         nivel: 1,
         xp: 0,
@@ -520,7 +520,7 @@ export const pokemons = [
     {
         numero: 38,
         nome: "Malamar",
-        ataques: [],
+        ataques: ["Psybeam", "Night Slash", "Psycho Cut", "Foul Play"],
         hp: 86,
         nivel: 1,
         xp: 0,
@@ -534,7 +534,7 @@ export const pokemons = [
     {
         numero: 39,
         nome: "Binacle",
-        ataques: [],
+        ataques: ["Scratch", "Water Gun", "Rock Throw", "Fury Cutter"],
         hp: 42,
         nivel: 1,
         xp: 0,
@@ -548,7 +548,7 @@ export const pokemons = [
     {
         numero: 40,
         nome: "Barbaracle",
-        ataques: [],
+        ataques: ["Razor Shell", "Rock Slide", "Night Slash", "Cross Chop"],
         hp: 72,
         nivel: 1,
         xp: 0,
@@ -562,7 +562,7 @@ export const pokemons = [
     {
         numero: 41,
         nome: "Skrelp",
-        ataques: [],
+        ataques: ["Tackle", "Water Gun", "Acid", "Venoshock"],
         hp: 50,
         nivel: 1,
         xp: 0,
@@ -576,7 +576,7 @@ export const pokemons = [
     {
         numero: 42,
         nome: "Dragalge",
-        ataques: [],
+        ataques: ["Water Pulse", "Sludge Bomb", "Dragon Pulse", "Hydro Pump"],
         hp: 65,
         nivel: 1,
         xp: 0,
@@ -590,7 +590,7 @@ export const pokemons = [
     {
         numero: 43,
         nome: "Clauncher",
-        ataques: [],
+        ataques: ["Water Gun", "Bubble Beam", "Aqua Jet", "Water Pulse"],
         hp: 50,
         nivel: 1,
         xp: 0,
@@ -604,7 +604,7 @@ export const pokemons = [
     {
         numero: 44,
         nome: "Clawitzer",
-        ataques: [],
+        ataques: ["Water Pulse", "Aqua Jet", "Dark Pulse", "Water Gun"],
         hp: 71,
         nivel: 1,
         xp: 0,
@@ -618,7 +618,7 @@ export const pokemons = [
     {
         numero: 45,
         nome: "Helioptile",
-        ataques: [],
+        ataques: ["Tackle", "Thunder Shock", "Quick Attack", "Electro Ball"],
         hp: 44,
         nivel: 1,
         xp: 0,
@@ -632,7 +632,7 @@ export const pokemons = [
     {
         numero: 46,
         nome: "Heliolisk",
-        ataques: [],
+        ataques: ["Thunder Shock", "Electro Ball", "Thunderbolt", "Volt Switch"],
         hp: 62,
         nivel: 1,
         xp: 0,
@@ -646,7 +646,7 @@ export const pokemons = [
     {
         numero: 47,
         nome: "Tyrunt",
-        ataques: [],
+        ataques: ["Tackle", "Bite", "Rock Throw", "Dragon Tail"],
         hp: 58,
         nivel: 1,
         xp: 0,
@@ -660,7 +660,7 @@ export const pokemons = [
     {
         numero: 48,
         nome: "Tyrantrum",
-        ataques: [],
+        ataques: ["Rock Slide", "Crunch", "Dragon Claw", "Head Smash"],
         hp: 82,
         nivel: 1,
         xp: 0,
@@ -674,7 +674,7 @@ export const pokemons = [
     {
         numero: 49,
         nome: "Amaura",
-        ataques: [],
+        ataques: ["Tackle", "Powder Snow", "Rock Throw", "Aurora Beam"],
         hp: 77,
         nivel: 1,
         xp: 0,
@@ -688,7 +688,7 @@ export const pokemons = [
     {
         numero: 50,
         nome: "Aurorus",
-        ataques: [],
+        ataques: ["Rock Slide", "Ice Beam", "Ancient Power", "Blizzard"],
         hp: 123,
         nivel: 1,
         xp: 0,
@@ -702,7 +702,7 @@ export const pokemons = [
     {
         numero: 51,
         nome: "Sylveon",
-        ataques: [],
+        ataques: ["Fairy Wind", "Draining Kiss", "Dazzling Gleam", "Moonblast"],
         hp: 95,
         nivel: 1,
         xp: 0,
@@ -716,7 +716,7 @@ export const pokemons = [
     {
         numero: 52,
         nome: "Hawlucha",
-        ataques: [],
+        ataques: ["Wing Attack", "Karate Chop", "Flying Press", "High Jump Kick"],
         hp: 78,
         nivel: 1,
         xp: 0,
@@ -730,7 +730,7 @@ export const pokemons = [
     {
         numero: 53,
         nome: "Dedenne",
-        ataques: [],
+        ataques: ["Tackle", "Thunder Shock", "Nuzzle", "Discharge"],
         hp: 67,
         nivel: 1,
         xp: 0,
@@ -744,7 +744,7 @@ export const pokemons = [
     {
         numero: 54,
         nome: "Carbink",
-        ataques: [],
+        ataques: ["Rock Throw", "Tackle", "Power Gem", "Ancient Power"],
         hp: 50,
         nivel: 1,
         xp: 0,
@@ -758,7 +758,7 @@ export const pokemons = [
     {
         numero: 55,
         nome: "Goomy",
-        ataques: [],
+        ataques: ["Tackle", "Water Gun", "Dragon Breath", "Dragon Pulse"],
         hp: 45,
         nivel: 1,
         xp: 0,
@@ -772,7 +772,7 @@ export const pokemons = [
     {
         numero: 56,
         nome: "Sliggoo",
-        ataques: [],
+        ataques: ["Water Gun", "Dragon Breath", "Dragon Pulse", "Sludge Bomb"],
         hp: 68,
         nivel: 1,
         xp: 0,
@@ -786,7 +786,7 @@ export const pokemons = [
     {
         numero: 57,
         nome: "Goodra",
-        ataques: [],
+        ataques: ["Dragon Pulse", "Sludge Bomb", "Aqua Tail", "Outrage"],
         hp: 90,
         nivel: 1,
         xp: 0,
@@ -800,7 +800,7 @@ export const pokemons = [
     {
         numero: 58,
         nome: "Klefki",
-        ataques: [],
+        ataques: ["Tackle", "Fairy Wind", "Metal Claw", "Dazzling Gleam"],
         hp: 57,
         nivel: 1,
         xp: 0,
@@ -814,7 +814,7 @@ export const pokemons = [
     {
         numero: 59,
         nome: "Phantump",
-        ataques: [],
+        ataques: ["Astonish", "Tackle", "Razor Leaf", "Shadow Sneak"],
         hp: 43,
         nivel: 1,
         xp: 0,
@@ -828,7 +828,7 @@ export const pokemons = [
     {
         numero: 60,
         nome: "Trevenant",
-        ataques: [],
+        ataques: ["Shadow Claw", "Razor Leaf", "Horn Leech", "Phantom Force"],
         hp: 85,
         nivel: 1,
         xp: 0,
@@ -842,7 +842,7 @@ export const pokemons = [
     {
         numero: 61,
         nome: "Pumpkaboo",
-        ataques: [],
+        ataques: ["Astonish", "Razor Leaf", "Shadow Sneak", "Bullet Seed"],
         hp: 49,
         nivel: 1,
         xp: 0,
@@ -856,7 +856,7 @@ export const pokemons = [
     {
         numero: 62,
         nome: "Gourgeist",
-        ataques: [],
+        ataques: ["Shadow Sneak", "Razor Leaf", "Bullet Seed", "Phantom Force"],
         hp: 65,
         nivel: 1,
         xp: 0,
@@ -870,7 +870,7 @@ export const pokemons = [
     {
         numero: 63,
         nome: "Bergmite",
-        ataques: [],
+        ataques: ["Tackle", "Powder Snow", "Ice Shard", "Ice Fang"],
         hp: 55,
         nivel: 1,
         xp: 0,
@@ -884,7 +884,7 @@ export const pokemons = [
     {
         numero: 64,
         nome: "Avalugg",
-        ataques: [],
+        ataques: ["Ice Fang", "Ice Shard", "Avalanche", "Ice Beam"],
         hp: 95,
         nivel: 1,
         xp: 0,
@@ -898,7 +898,7 @@ export const pokemons = [
     {
         numero: 65,
         nome: "Noibat",
-        ataques: [],
+        ataques: ["Tackle", "Gust", "Bite", "Dragon Breath"],
         hp: 40,
         nivel: 1,
         xp: 0,
@@ -912,7 +912,7 @@ export const pokemons = [
     {
         numero: 66,
         nome: "Noivern",
-        ataques: [],
+        ataques: ["Air Slash", "Dragon Pulse", "Bite", "Hurricane"],
         hp: 85,
         nivel: 1,
         xp: 0,

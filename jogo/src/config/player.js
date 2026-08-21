@@ -8,7 +8,7 @@ export function PlayerInicial() {
     {
       nome,
       idade: "10",
-      pokebolas: [],
+      pokebolas: [5],
       potions: [],
       dinheiro : 0,
       pokemons : [],

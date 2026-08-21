@@ -1,15 +1,13 @@
 import leia from 'readline-sync'
 
 
-
-
 export const ginasios = [
     {
         nome: "Ginasios de Pedra",
         lider: "Cleber Josevaldo",
         tipo: "Pedra",
         dificuldade: "",
-        pokemons: []
+        pokemons: [54, 49, 47]
     },
 
     {
@@ -17,7 +15,7 @@ export const ginasios = [
         lider: "Tony Ramos",
         tipo: "Planta",
         dificuldade: "",
-        pokemons: []
+        pokemons: [59, 24, 1, 61]
     },
 
     {
@@ -25,15 +23,15 @@ export const ginasios = [
         lider: "Cleiton Machado",
         tipo: "Eletrico",
         dificuldade: "",
-        pokemons: []
+        pokemons: [45, 46, 53]
     },
 
     {
-        nome: "Nicolas Camargo da Luz",
-        lider: "",
-        tipo: "",
+        nome: "Ginasio Dracônico",
+        lider: "Clair",
+        tipo: "Dragão",
         dificuldade: "",
-        pokemons: []
+        pokemons: [48, 66, 57, 42]
     },
     
 ]
