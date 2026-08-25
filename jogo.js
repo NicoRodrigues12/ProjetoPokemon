@@ -100,7 +100,7 @@ function encontrarPokemonSelvagem(){
   }
 
   
-  
+  console.log("eu fodo com homens")
   
   
   
