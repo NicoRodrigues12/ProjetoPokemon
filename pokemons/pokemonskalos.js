@@ -921,5 +921,17 @@ export const pokemons = [
         chanceCaptura: 45,
         chanceAparicao: null,
         tipagem: ["Flying", "Dragon"]
+    },{
+        numero: 66,
+        nome: "ABERTO GOD",
+        ataques: ["Air Slash", "Dragon Pulse", "Bite", "Hurricane"],
+        hp: 1000,
+        nivel: 1,
+        xp: 0,
+        xpProximoNivel: 150,
+        evolucao: null,
+        chanceCaptura: 5,
+        chanceAparicao: null,
+        tipagem: ["Dragon"],
     }
 ];

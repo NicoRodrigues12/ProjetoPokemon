@@ -199,6 +199,14 @@ export const moves = [
         dano: 55,
         precisao: 95
     },
+    {
+        nome: "Razor Shell",
+        tipo: "Planta",
+        categoria: "Fisico",
+        dano: 50,
+        precisao: 95
+    },
+
 
     {
         nome: "Mega Drain",
